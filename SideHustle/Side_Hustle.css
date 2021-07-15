@@ -1,0 +1,2689 @@
+body{
+    background: #0e0e0e;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+#Main_container{
+    background-color: #C19A6B;
+    width: 33%;
+    height: 74vh;
+    margin-left: 33%;
+    margin-top: 3%;
+    margin-bottom: 0;
+    padding-top: 5%;
+}
+
+#Sub-container{
+    box-sizing: border-box;
+    background: #C19A6B;
+    width: 70%;
+    height: 64vh;
+    border: 1px solid #fff;
+    margin-left: 15%;
+    box-shadow: 1px 7px 7px 3px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#Sub-container h1, h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 0;
+}
+
+#Sub-container h2{
+    font-size: 120px;
+    margin-top: -12%;
+    color: 	#008000;
+}
+
+#Sub-container #btn-1{
+    width: 50%;
+    height: 10%;
+    background-color: #241571;
+    margin-left: 25%;
+    margin-top: -37%;
+    border-radius: 5px;
+    padding-top: 3%;
+    box-sizing: border-box;
+    box-shadow: 1px 4px 7px 1px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#Sub-container #btn-2{
+    width: 40%;
+    height: 10%;
+    background-color: #241571;
+    color: #f9f6ee;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-top: 3%;
+    box-sizing: border-box;
+    box-shadow: 1px 4px 7px 1px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+/*Responsive*/
+@media only screen and (max-width: 2036px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container h1 {
+        font-size: 63px;
+    }
+    #Sub-container h2{
+        font-size: 170px;
+        padding-top: 5%;
+    }
+    #Sub-container #btn-1{
+        font-size: 18px;
+        padding-top: 4%;
+    }
+    #Sub-container #btn-2{
+        font-size: 18px;
+        padding-top: 4%;
+    }
+}
+
+
+@media only screen and (max-width: 1510px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container h1 {
+        font-size: 47px;
+    }
+    #Sub-container h2{
+        font-size: 140px;
+        padding-top: 5%;
+    }
+    #Sub-container #btn-1{
+        font-size: 15px;
+        padding-top: 4%;
+    }
+    #Sub-container #btn-2{
+        font-size: 12px;
+        padding-top: 4%;
+    }
+}
+
+
+/*Ipad pro*/
+@media only screen and (max-width: 1024px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Main_container{
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 23%;
+    }
+    #Sub-container {
+        height: 53vh;
+    }
+    #Sub-container h1{
+        font-size: 90px;
+        padding-top: 5%;
+    }
+    #Sub-container h2{
+        font-size: 200px;
+        padding-top: -12%;
+    }
+    #Sub-container #btn-1{
+        width: 50%;
+        height: 7%;
+        color: #fff8dc;
+        font-size: 27px;
+        padding-top: 2%;
+        margin-top: -19%;
+    }
+    #Sub-container #btn-2{
+        width: 40%;
+        height: 7%;
+        color: #fff8dc;
+        font-size: 27px;
+        padding-top: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 1020px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -10%;
+    }
+    #Main_container{
+        width: 100%;
+        height: 65vh;
+        padding-top: 3%;
+    }
+    #Sub-container {
+        height: 58vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-top: 10%;
+        padding-bottom: 310px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -59%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+        margin-top: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 1010px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -10%;
+    }
+    #Main_container{
+        width: 100%;
+        height: 60vh;
+        padding-top: 3%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-top: 10%;
+        padding-bottom: 330px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -59%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+        margin-top: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 280px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+        margin-top: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 280px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -55%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+        margin-top: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 980px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 280px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 960px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 260px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 940px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 240px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 920px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 240px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 240px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 890px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 220px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 870px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 230px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 220px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 830px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 200px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 810px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 200px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 200px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 790px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 200px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+/*Ipad*/
+@media only screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 23%;
+    }
+
+    #Main_container {
+        width: 100%;
+        padding-top: 8%;
+    }
+
+    #Sub-container h1 {
+        font-size: 72px;
+    }
+
+    #Sub-container #btn-1 {
+        margin-top: -30%;
+        font-size: 26px;
+        padding-top: 1%;
+    }
+
+    #Sub-container #btn-2 {
+        font-size: 26px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 780px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 200px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 770px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 200px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 760px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 200px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 200px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 740px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 190px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 730px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 200px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 730px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 190px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 170px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 710px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        width: 100%;
+        padding-top: 5%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 150px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 1%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+    @media only screen and (max-width: 700px) {
+        body{
+            overflow-x: hidden;
+            overflow-y: hidden;
+            margin-top: -8%;
+        }
+        #Main_container{
+            width: 100%;
+            padding-top: 5%;
+        }
+        #Sub-container {
+            height: 55vh;
+        }
+        #Sub-container h1{
+            font-size: 35px;
+        }
+        #Sub-container h2{
+            font-size: 118px;
+            padding-bottom: 150px;
+        }
+        #Sub-container #btn-1{
+            font-size: 13px;
+            padding-top: 1%;
+            margin-top: -52%;
+        }
+        #Sub-container #btn-2{
+            font-size: 11px;
+            padding-top: 1%;
+        }
+    }
+
+
+    @media only screen and (max-width: 690px) {
+        body{
+            overflow-x: hidden;
+            overflow-y: hidden;
+            margin-top: -8%;
+        }
+        #Main_container{
+            width: 100%;
+            padding-top: 5%;
+        }
+        #Sub-container {
+            height: 55vh;
+        }
+        #Sub-container h1{
+            font-size: 35px;
+        }
+        #Sub-container h2{
+            font-size: 118px;
+            padding-bottom: 150px;
+        }
+        #Sub-container #btn-1{
+            font-size: 13px;
+            padding-top: 1%;
+            margin-top: -52%;
+        }
+        #Sub-container #btn-2{
+            font-size: 11px;
+            padding-top: 1%;
+        }
+    }
+
+
+    @media only screen and (max-width: 680px) {
+        body{
+            overflow-x: hidden;
+            overflow-y: hidden;
+            margin-top: -8%;
+        }
+        #Main_container{
+            margin-top: 30%;
+            width: 100%;
+            padding-top: 8%;
+        }
+        #Sub-container {
+            height: 55vh;
+        }
+        #Sub-container h1{
+            font-size: 35px;
+        }
+        #Sub-container h2{
+            font-size: 118px;
+            padding-bottom: 180px;
+        }
+        #Sub-container #btn-1{
+            font-size: 13px;
+            padding-top: 2%;
+            margin-top: -52%;
+        }
+        #Sub-container #btn-2{
+            font-size: 11px;
+            padding-top: 1%;
+        }
+    }
+
+
+    @media only screen and (max-width: 670px) {
+        body{
+            overflow-x: hidden;
+            overflow-y: hidden;
+            margin-top: -8%;
+        }
+        #Main_container{
+            margin-top: 30%;
+            width: 100%;
+            padding-top: 8%;
+        }
+        #Sub-container {
+            height: 55vh;
+        }
+        #Sub-container h1{
+            font-size: 35px;
+        }
+        #Sub-container h2{
+            font-size: 118px;
+            padding-bottom: 160px;
+        }
+        #Sub-container #btn-1{
+            font-size: 13px;
+            padding-top: 2%;
+            margin-top: -52%;
+        }
+        #Sub-container #btn-2{
+            font-size: 11px;
+            padding-top: 1%;
+        }
+    }
+
+
+    @media only screen and (max-width: 660px) {
+        body{
+            overflow-x: hidden;
+            overflow-y: hidden;
+            margin-top: -8%;
+        }
+        #Main_container{
+            margin-top: 30%;
+            width: 100%;
+            padding-top: 8%;
+        }
+        #Sub-container {
+            height: 55vh;
+        }
+        #Sub-container h1{
+            font-size: 35px;
+        }
+        #Sub-container h2{
+            font-size: 118px;
+            padding-bottom: 140px;
+        }
+        #Sub-container #btn-1{
+            font-size: 13px;
+            padding-top: 2%;
+            margin-top: -52%;
+        }
+        #Sub-container #btn-2{
+            font-size: 11px;
+            padding-top: 1%;
+        }
+    }
+
+
+    @media only screen and (max-width: 650px) {
+        body{
+            overflow-x: hidden;
+            overflow-y: hidden;
+            margin-top: -8%;
+        }
+        #Main_container{
+            margin-top: 30%;
+            width: 100%;
+            padding-top: 8%;
+        }
+        #Sub-container {
+            height: 55vh;
+        }
+        #Sub-container h1{
+            font-size: 35px;
+        }
+        #Sub-container h2{
+            font-size: 118px;
+            padding-bottom: 120px;
+        }
+        #Sub-container #btn-1{
+            font-size: 13px;
+            padding-top: 2%;
+            margin-top: -52%;
+        }
+        #Sub-container #btn-2{
+            font-size: 11px;
+            padding-top: 1%;
+        }
+    }
+
+
+    @media only screen and (max-width: 640px) {
+        body{
+            overflow-x: hidden;
+            overflow-y: hidden;
+            margin-top: -8%;
+        }
+        #Main_container{
+            margin-top: 30%;
+            width: 100%;
+            padding-top: 8%;
+        }
+        #Sub-container {
+            height: 55vh;
+        }
+        #Sub-container h1{
+            font-size: 35px;
+        }
+        #Sub-container h2{
+            font-size: 118px;
+            padding-bottom: 120px;
+        }
+        #Sub-container #btn-1{
+            font-size: 13px;
+            padding-top: 2%;
+            margin-top: -52%;
+        }
+        #Sub-container #btn-2{
+            font-size: 11px;
+            padding-top: 1%;
+        }
+    }
+
+
+    @media only screen and (max-width: 630px) {
+        body{
+            overflow-x: hidden;
+            overflow-y: hidden;
+            margin-top: -8%;
+        }
+        #Main_container{
+            margin-top: 30%;
+            width: 100%;
+            padding-top: 8%;
+        }
+        #Sub-container {
+            height: 55vh;
+        }
+        #Sub-container h1{
+            font-size: 35px;
+        }
+        #Sub-container h2{
+            font-size: 118px;
+            padding-bottom: 120px;
+        }
+        #Sub-container #btn-1{
+            font-size: 13px;
+            padding-top: 2%;
+            margin-top: -52%;
+        }
+        #Sub-container #btn-2{
+            font-size: 11px;
+            padding-top: 1%;
+        }
+    }
+
+
+@media only screen and (max-width: 620px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 610px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+/*Blackberry playBook*/
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 590px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -52%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+
+@media only screen and (max-width: 580px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -53%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+
+@media only screen and (max-width: 570px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -55%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+
+@media only screen and (max-width: 560px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -57%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -60%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 540px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -60%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 530px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -60%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 519px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -60%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+
+@media only screen and (max-width: 513px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -60%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 507px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -60%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 501px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -8%;
+    }
+    #Main_container{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 8%;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 118px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -60%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 497px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -60%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 491px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container #btn-1{
+        font-size: 15px;
+        padding-top: 2%;
+        margin-top: -60%;
+    }
+    #Sub-container #btn-2{
+        font-size: 15px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 489px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 130px;
+        padding-bottom: 120px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -70%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+/*Nokia N9*/
+@media only screen and (max-width: 481px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container {
+        height: 55vh;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 170px;
+        padding-bottom: 80px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -70%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+@media only screen and (max-width: 478px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container h1, h2{
+        text-align: center;
+        font-size: 35px;
+        padding: 0;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -64%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container h1, h2{
+        text-align: center;
+        font-size: 35px;
+        padding: 0;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -70%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container h1, h2{
+        text-align: center;
+        font-size: 35px;
+        padding: 0;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -74%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 458px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container h1, h2{
+        text-align: center;
+        font-size: 35px;
+        padding: 0;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -65%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 454px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container h1, h2{
+        text-align: center;
+        font-size: 35px;
+        padding: 0;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -65%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+/*Responsive-A*/
+@media only screen and (max-width: 448px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container h1, h2{
+        text-align: center;
+        font-size: 35px;
+        padding: 0;
+    }
+    #Sub-container h2{
+        font-size: 150px;
+        padding-bottom: 63px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+
+@media only screen and (max-width: 441px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 30%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 55vh;
+        margin-left: 10%;
+    }
+    #Sub-container h1{
+        font-size: 42px;
+    }
+    #Sub-container h2{
+        font-size: 130px;
+        margin-bottom: 27px;
+    }
+    #Sub-container #btn-1{
+        width: 55%;
+        height: 8%;
+        font-size: 13px;
+        margin-top: -18%;
+        padding-top: 2%;
+    }
+    #Sub-container #btn-2{
+        width: 40%;
+        margin-left: 32%;
+        font-size: 11px;
+        padding-top: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 434px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 30%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 55vh;
+        margin-left: 10%;
+    }
+    #Sub-container h1{
+        font-size: 38px;
+    }
+    #Sub-container h2{
+        font-size: 160px;
+        margin-bottom: 8px;
+    }
+    #Sub-container #btn-1{
+        width: 55%;
+        height: 8%;
+        font-size: 13px;
+        margin-top: -18%;
+        padding-top: 2%;
+    }
+    #Sub-container #btn-2{
+        width: 40%;
+        margin-left: 32%;
+        font-size: 11px;
+        padding-top: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 427px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 30%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 55vh;
+        margin-left: 10%;
+    }
+    #Sub-container h1{
+        font-size: 39px;
+    }
+    #Sub-container h2{
+        font-size: 160px;
+        margin-bottom: 8px;
+    }
+    #Sub-container #btn-1{
+        width: 55%;
+        height: 8%;
+        font-size: 13px;
+        margin-top: -18%;
+        padding-top: 2%;
+    }
+    #Sub-container #btn-2{
+        width: 40%;
+        margin-left: 32%;
+        font-size: 11px;
+        padding-top: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 424px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 30%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 55vh;
+        margin-left: 10%;
+    }
+    #Sub-container h1{
+        font-size: 39px;
+    }
+    #Sub-container h2{
+        font-size: 160px;
+        margin-bottom: 8px;
+    }
+    #Sub-container #btn-1{
+        width: 55%;
+        height: 8%;
+        font-size: 13px;
+        margin-top: -18%;
+        padding-top: 2%;
+    }
+    #Sub-container #btn-2{
+        width: 40%;
+        margin-left: 32%;
+        font-size: 11px;
+        padding-top: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 417px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 30%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 55vh;
+        margin-left: 10%;
+    }
+    #Sub-container h1{
+        font-size: 38px;
+    }
+    #Sub-container h2{
+        font-size: 160px;
+        margin-bottom: 30%;
+    }
+    #Sub-container #btn-1{
+        width: 55%;
+        height: 8%;
+        font-size: 13px;
+        margin-top: -48%;
+        padding-top: 2%;
+    }
+    #Sub-container #btn-2{
+        width: 40%;
+        margin-left: 32%;
+        font-size: 11px;
+        padding-top: 2%;
+    }
+}
+
+/*iphone 6/7/8 plus*/
+@media only screen and (max-width: 414px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 30%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 55vh;
+        margin-left: 10%;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container h2{
+        font-size: 130px;
+        margin-bottom: 30%;
+    }
+    #Sub-container #btn-1{
+        width: 55%;
+        height: 8%;
+        font-size: 13px;
+        margin-top: -45%;
+        padding-top: 2%;
+    }
+    #Sub-container #btn-2{
+        width: 40%;
+        margin-left: 32%;
+        font-size: 11px;
+        padding-top: 2%;
+    }
+}
+
+/*Pexel-2*/
+@media only screen and (max-width: 410px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 38%;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 50vh;
+        margin-left: 0;
+        margin-top: 34%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 45vh;
+        margin-left: 10%;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container #btn-1{
+        font-size: 12px;
+        padding-top: 2%;
+        margin-top: -50%;
+    }
+    #Sub-container #btn-2{
+        font-size: 10px;
+        padding-top: 1%;
+    }
+}
+
+@media only screen and (max-width: 404px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 40%;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 50vh;
+        margin-left: 0;
+        margin-top: 34%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 45vh;
+        margin-left: 10%;
+    }
+    #Sub-container h1{
+        font-size: 35px;
+    }
+    #Sub-container #btn-1{
+        font-size: 12px;
+        padding-top: 2%;
+        margin-top: -50%;
+    }
+    #Sub-container #btn-2{
+        font-size: 10px;
+        padding-top: 1%;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 58vh;
+        margin-left: 0;
+        margin-top: 34%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 52vh;
+        margin-left: 10%;
+    }
+    #Sub-container h1, h2{
+        text-align: center;
+        font-size: 38px;
+        padding: 0;
+    }
+    #Sub-container #btn-1{
+        font-size: 12px;
+        padding-top: 2%;
+        margin-top: -50%;
+    }
+    #Sub-container #btn-2{
+        font-size: 10px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 389px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 35.6%;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 58vh;
+        margin-left: 0;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 52vh;
+        margin-left: 10%;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -50%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 380px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -50%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+
+/*iphone X*/
+@media only screen and (max-width: 379px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 30%;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 62vh;
+        margin-left: 0;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 52vh;
+        margin-top: 6%;
+        margin-left: 10%;
+    }
+    #Sub-container h1{
+        font-size: 39px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -50%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 372px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 35%;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 49vh;
+        margin-top: 6%;
+        margin-left: 10%;
+    }
+    #Sub-container h1{
+        font-size: 39px;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -50%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 356px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 34%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 50vh;
+        margin-left: 10%;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -50%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Sub-container #btn-1{
+        font-size: 13px;
+        padding-top: 2%;
+        margin-top: -50%;
+    }
+    #Sub-container #btn-2{
+        font-size: 11px;
+        padding-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 348px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 32%;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 30%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 51vh;
+        margin-top: 6%;
+        margin-left: 10%;
+    }
+    #Sub-container h2{
+        font-size: 108px;
+    }
+    #Sub-container #btn-1{
+        font-size: 12px;
+        padding-top: 2.5%;
+        margin-top: -48%;
+    }
+    #Sub-container #btn-2{
+        font-size: 10px;
+        padding-top: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 342px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 32%;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 30%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 51vh;
+        margin-top: 6%;
+        margin-left: 10%;
+    }
+    #Sub-container h2{
+        font-size: 108px;
+    }
+    #Sub-container #btn-1{
+        font-size: 12px;
+        padding-top: 2.5%;
+        margin-top: -48%;
+    }
+    #Sub-container #btn-2{
+        font-size: 10px;
+        padding-top: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 335px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 32%;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 30%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 51vh;
+        margin-top: 6%;
+        margin-left: 10%;
+    }
+    #Sub-container h2{
+        font-size: 108px;
+    }
+    #Sub-container #btn-1{
+        font-size: 12px;
+        padding-top: 2.5%;
+        margin-top: -48%;
+    }
+    #Sub-container #btn-2{
+        font-size: 10px;
+        padding-top: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 329px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 32%;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 66vh;
+        margin-left: 0;
+        margin-top: 30%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 55vh;
+        margin-top: 6%;
+        margin-left: 10%;
+    }
+    #Sub-container h2{
+        font-size: 108px;
+    }
+    #Sub-container #btn-1{
+        font-size: 12px;
+        padding-top: 3%;
+        margin-top: -50%;
+    }
+    #Sub-container #btn-2{
+        font-size: 10px;
+        padding-top: 3%;
+    }
+}
+
+
+@media only screen and (max-width: 324px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 35%;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 30%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 50vh;
+        margin-top: 6%;
+        margin-left: 10%;
+    }
+    #Sub-container h2{
+        font-size: 108px;
+    }
+    #Sub-container #btn-1{
+        font-size: 12px;
+        padding-top: 3%;
+        margin-top: -50%;
+    }
+    #Sub-container #btn-2{
+        font-size: 10px;
+        padding-top: 3%;
+    }
+}
+
+
+/*iphone 5/SE*/
+@media only screen and (max-width: 321px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 32%;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 30%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 51vh;
+        margin-top: 6%;
+        margin-left: 10%;
+    }
+    #Sub-container h2{
+        font-size: 102px;
+    }
+    #Sub-container #btn-1{
+        font-size: 12px;
+        padding-top: 3%;
+        margin-top: -50%;
+    }
+    #Sub-container #btn-2{
+        font-size: 10px;
+        padding-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 317px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 32%;
+    }
+    #Main_container{;
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 30%;
+    }
+    #Sub-container{
+        width: 80%;
+        height: 51vh;
+        margin-top: 6%;
+        margin-left: 10%;
+    }
+    #Sub-container h2{
+        font-size: 102px;
+    }
+    #Sub-container #btn-1{
+        font-size: 12px;
+        padding-top: 3%;
+        margin-top: -48%;
+    }
+    #Sub-container #btn-2{
+        font-size: 10px;
+        padding-top: 3%;
+    }
+}
